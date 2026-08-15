@@ -236,12 +236,17 @@ Content-Type: application/json
 
 ### Create an administrator
 
-Registration creates a normal user. Promote a trusted account directly in MySQL:
+```http
+POST /api/v1/auth/register/admin
+Content-Type: application/json
+```
 
-```sql
-UPDATE users
-SET role = 'admin'
-WHERE email = 'admin@example.com';
+```json
+{
+  "name": "Admin",
+  "email": "admin@example.com",
+  "password": "StrongPassword123!"
+}
 ```
 
 Log in again after changing the role so the new JWT contains the administrator role.
