@@ -44,6 +44,8 @@ Because MySQL and MongoDB cannot participate in one normal local ACID transactio
 
 ```text
 event-ticket-system-api/
+├── postman/
+│   └── Event & Ticket System API.postman_collection.json
 ├── scripts/
 │   └── reconcile-bookings.js
 ├── sql/
