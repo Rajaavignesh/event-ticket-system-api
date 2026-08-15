@@ -198,6 +198,7 @@ http://localhost:3000/api/v1
 | Method | Endpoint | Access | Description |
 | --- | --- | --- | --- |
 | POST | `/auth/register` | Public | Register a user |
+| POST | `/auth/register/admin` | Public | Register a admin |
 | POST | `/auth/login` | Public | Authenticate and receive a JWT |
 | GET | `/auth/me` | Authenticated | Return the current user |
 | POST | `/events` | Admin | Create an event |
