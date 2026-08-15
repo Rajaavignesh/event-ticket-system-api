@@ -1,0 +1,11 @@
+node_modules/
+coverage/
+.DS_Store
+
+.env
+.env.test
+
+*.log
+npm-debug.log*
+
+sql/mysql-schema.backup.sql
